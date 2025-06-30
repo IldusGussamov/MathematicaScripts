@@ -1,0 +1,278 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Wolfram 14.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       154,          7]
+NotebookDataLength[     11618,        268]
+NotebookOptionsPosition[     10934,        249]
+NotebookOutlinePosition[     11337,        265]
+CellTagsIndexPosition[     11294,        262]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[{
+ RowBox[{"Manipulate", "[", 
+  RowBox[{
+   RowBox[{"Plot", "[", 
+    RowBox[{
+     SuperscriptBox["x", "n"], ",", " ", 
+     RowBox[{"{", 
+      RowBox[{"x", ",", " ", "0", ",", " ", "1"}], "}"}], ",", " ", 
+     RowBox[{"PlotRange", "->", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"0", ",", "1.1"}], "}"}], ",", 
+        RowBox[{"{", 
+         RowBox[{"0", ",", " ", "2"}], "}"}]}], "}"}]}], ",", " ", 
+     RowBox[{
+     "PlotLabel", 
+      "->", "\"\<\:041d\:0435\:0440\:0430\:0432\:043d\:043e\:043c\:0435\:0440\
+\:043d\:0430\:044f \:0441\:0445\:043e\:0434\:0438\:043c\:043e\:0441\:0442\
+\:044c\>\""}]}], "]"}], ",", " ", 
+   RowBox[{"{", 
+    RowBox[{"n", ",", " ", "1", ",", " ", "25"}], "}"}]}], "]"}], "\[IndentingNewLine]", 
+ RowBox[{"Manipulate", "[", 
+  RowBox[{
+   RowBox[{"Plot", "[", 
+    RowBox[{
+     FractionBox[
+      RowBox[{"Sin", "[", 
+       RowBox[{"n", " ", "x"}], "]"}], "n"], ",", " ", 
+     RowBox[{"{", 
+      RowBox[{"x", ",", " ", 
+       RowBox[{"-", "Pi"}], ",", " ", "Pi"}], "}"}], ",", " ", 
+     RowBox[{"PlotRange", "->", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"-", "Pi"}], ",", "Pi"}], "}"}], ",", 
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"-", "Pi"}], ",", " ", "Pi"}], "}"}]}], "}"}]}], ",", " ", 
+     RowBox[{
+     "PlotLabel", 
+      "->", "\"\<\:0420\:0430\:0432\:043d\:043e\:043c\:0435\:0440\:043d\:0430\
+\:044f \:0441\:0445\:043e\:0434\:0438\:043c\:043e\:0441\:0442\:044c\>\""}]}], 
+    "]"}], ",", " ", 
+   RowBox[{"{", 
+    RowBox[{"n", ",", " ", "1", ",", " ", "25"}], "}"}]}], "]"}], "\[IndentingNewLine]", 
+ RowBox[{"Manipulate", "[", 
+  RowBox[{
+   RowBox[{"Plot", "[", 
+    RowBox[{
+     FractionBox[
+      RowBox[{"Cos", "[", 
+       RowBox[{"n", " ", "x"}], "]"}], 
+      RowBox[{
+       SuperscriptBox["n", "2"], "+", 
+       SuperscriptBox["x", "2"]}]], ",", " ", 
+     RowBox[{"{", 
+      RowBox[{"x", ",", " ", 
+       RowBox[{"-", "Pi"}], ",", " ", "Pi"}], "}"}], ",", " ", 
+     RowBox[{"PlotRange", "->", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"-", "Pi"}], ",", "Pi"}], "}"}], ",", 
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"-", "Pi"}], ",", " ", "Pi"}], "}"}]}], "}"}]}], ",", " ", 
+     RowBox[{
+     "PlotLabel", 
+      "->", "\"\<\:0420\:0430\:0432\:043d\:043e\:043c\:0435\:0440\:043d\:0430\
+\:044f \:0441\:0445\:043e\:0434\:0438\:043c\:043e\:0441\:0442\:044c\>\""}]}], 
+    "]"}], ",", " ", 
+   RowBox[{"{", 
+    RowBox[{"n", ",", " ", "1", ",", " ", "25"}], "}"}]}], 
+  "]"}], "\[IndentingNewLine]"}], "Input",
+ CellChangeTimes->{{3.9602785880936203`*^9, 3.9602788006495247`*^9}, {
+   3.960278857347622*^9, 3.9602789203128357`*^9}, 3.9602789548900547`*^9, {
+   3.960278985135412*^9, 3.9602790531106186`*^9}, {3.960279204757225*^9, 
+   3.960279223857916*^9}, {3.9602792629156075`*^9, 3.960279376548687*^9}},
+ CellLabel->"In[38]:=",ExpressionUUID->"d680a01c-be30-f340-b1e4-c619b1d7af0e"],
+
+Cell[BoxData[
+ TagBox[
+  StyleBox[
+   DynamicModuleBox[{$CellContext`n$$ = 1, Typeset`show$$ = True, 
+    Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
+    Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
+    "\"untitled\"", Typeset`specs$$ = {{
+      Hold[$CellContext`n$$], 1, 25, ControlType -> Manipulator}}, 
+    Typeset`size$$ = {
+    195.26617187500003`, {68.87029480836836, 74.60222840211836}}, 
+    Typeset`update$$ = 0, Typeset`initDone$$, Typeset`skipInitDone$$ = True, 
+    Typeset`keyframeActionsQ$$ = False, Typeset`keyframeList$$ = {}}, 
+    DynamicBox[Manipulate`ManipulateBoxes[
+     1, StandardForm, "Variables" :> {$CellContext`n$$ = 1}, 
+      "ControllerVariables" :> {}, 
+      "OtherVariables" :> {
+       Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
+        Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
+        Typeset`specs$$, Typeset`size$$, Typeset`update$$, Typeset`initDone$$,
+         Typeset`skipInitDone$$, Typeset`keyframeActionsQ$$, 
+        Typeset`keyframeList$$}, "Body" :> 
+      Plot[$CellContext`x^$CellContext`n$$, {$CellContext`x, 0, 1}, 
+        PlotRange -> {{0, 1.1}, {0, 2}}, PlotLabel -> 
+        "\:041d\:0435\:0440\:0430\:0432\:043d\:043e\:043c\:0435\:0440\:043d\
+\:0430\:044f \:0441\:0445\:043e\:0434\:0438\:043c\:043e\:0441\:0442\:044c"], 
+      "Specifications" :> {{$CellContext`n$$, 1, 25}}, "Options" :> {}, 
+      "DefaultOptions" :> {}],
+     ImageSizeCache->{
+      458.36234375000004`, {147.98668709118505`, 153.71862068493505`}},
+     SingleEvaluation->True],
+    Deinitialization:>None,
+    DynamicModuleValues:>{},
+    SynchronousInitialization->True,
+    UndoTrackedVariables:>{Typeset`show$$, Typeset`bookmarkMode$$},
+    UnsavedVariables:>{Typeset`initDone$$},
+    UntrackedVariables:>{Typeset`size$$}], "Manipulate",
+   Deployed->True,
+   StripOnInput->False],
+  Manipulate`InterpretManipulate[1]]], "Output",
+ CellChangeTimes->{
+  3.9602786332737637`*^9, {3.960278670058161*^9, 3.9602787108003216`*^9}, {
+   3.960278743779171*^9, 3.9602787691682777`*^9}, 3.960278870897003*^9, {
+   3.960278901588026*^9, 3.9602789256214237`*^9}, 3.9602789905933475`*^9, {
+   3.960279024144556*^9, 3.9602790554468193`*^9}, {3.9602792192076397`*^9, 
+   3.960279230341934*^9}, {3.9602793553553658`*^9, 3.9602793796352825`*^9}},
+ CellLabel->"Out[38]=",ExpressionUUID->"6a2687db-bcdf-a641-99ef-c5d536d45c42"],
+
+Cell[BoxData[
+ TagBox[
+  StyleBox[
+   DynamicModuleBox[{$CellContext`n$$ = 1, Typeset`show$$ = True, 
+    Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
+    Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
+    "\"untitled\"", Typeset`specs$$ = {{
+      Hold[$CellContext`n$$], 1, 25, ControlType -> Manipulator}}, 
+    Typeset`size$$ = {
+    195.26617187500003`, {66.6288377853347, 72.3607713790847}}, 
+    Typeset`update$$ = 0, Typeset`initDone$$, Typeset`skipInitDone$$ = True, 
+    Typeset`keyframeActionsQ$$ = False, Typeset`keyframeList$$ = {}}, 
+    DynamicBox[Manipulate`ManipulateBoxes[
+     1, StandardForm, "Variables" :> {$CellContext`n$$ = 1}, 
+      "ControllerVariables" :> {}, 
+      "OtherVariables" :> {
+       Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
+        Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
+        Typeset`specs$$, Typeset`size$$, Typeset`update$$, Typeset`initDone$$,
+         Typeset`skipInitDone$$, Typeset`keyframeActionsQ$$, 
+        Typeset`keyframeList$$}, "Body" :> 
+      Plot[Sin[$CellContext`n$$ $CellContext`x]/$CellContext`n$$, \
+{$CellContext`x, -Pi, Pi}, PlotRange -> {{-Pi, Pi}, {-Pi, Pi}}, PlotLabel -> 
+        "\:0420\:0430\:0432\:043d\:043e\:043c\:0435\:0440\:043d\:0430\:044f \
+\:0441\:0445\:043e\:0434\:0438\:043c\:043e\:0441\:0442\:044c"], 
+      "Specifications" :> {{$CellContext`n$$, 1, 25}}, "Options" :> {}, 
+      "DefaultOptions" :> {}],
+     ImageSizeCache->{
+      458.36234375000004`, {143.77597401403926`, 149.50790760778926`}},
+     SingleEvaluation->True],
+    Deinitialization:>None,
+    DynamicModuleValues:>{},
+    SynchronousInitialization->True,
+    UndoTrackedVariables:>{Typeset`show$$, Typeset`bookmarkMode$$},
+    UnsavedVariables:>{Typeset`initDone$$},
+    UntrackedVariables:>{Typeset`size$$}], "Manipulate",
+   Deployed->True,
+   StripOnInput->False],
+  Manipulate`InterpretManipulate[1]]], "Output",
+ CellChangeTimes->{
+  3.9602786332737637`*^9, {3.960278670058161*^9, 3.9602787108003216`*^9}, {
+   3.960278743779171*^9, 3.9602787691682777`*^9}, 3.960278870897003*^9, {
+   3.960278901588026*^9, 3.9602789256214237`*^9}, 3.9602789905933475`*^9, {
+   3.960279024144556*^9, 3.9602790554468193`*^9}, {3.9602792192076397`*^9, 
+   3.960279230341934*^9}, {3.9602793553553658`*^9, 3.9602793798301926`*^9}},
+ CellLabel->"Out[39]=",ExpressionUUID->"bd8bb2e8-6890-1946-9e6c-3bdd8806923f"],
+
+Cell[BoxData[
+ TagBox[
+  StyleBox[
+   DynamicModuleBox[{$CellContext`n$$ = 1, Typeset`show$$ = True, 
+    Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
+    Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
+    "\"untitled\"", Typeset`specs$$ = {{
+      Hold[$CellContext`n$$], 1, 25, ControlType -> Manipulator}}, 
+    Typeset`size$$ = {
+    195.26617187500003`, {66.6288377853347, 72.3607713790847}}, 
+    Typeset`update$$ = 0, Typeset`initDone$$, Typeset`skipInitDone$$ = True, 
+    Typeset`keyframeActionsQ$$ = False, Typeset`keyframeList$$ = {}}, 
+    DynamicBox[Manipulate`ManipulateBoxes[
+     1, StandardForm, "Variables" :> {$CellContext`n$$ = 1}, 
+      "ControllerVariables" :> {}, 
+      "OtherVariables" :> {
+       Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
+        Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
+        Typeset`specs$$, Typeset`size$$, Typeset`update$$, Typeset`initDone$$,
+         Typeset`skipInitDone$$, Typeset`keyframeActionsQ$$, 
+        Typeset`keyframeList$$}, "Body" :> 
+      Plot[Cos[$CellContext`n$$ $CellContext`x]/($CellContext`n$$^2 + \
+$CellContext`x^2), {$CellContext`x, -Pi, Pi}, 
+        PlotRange -> {{-Pi, Pi}, {-Pi, Pi}}, PlotLabel -> 
+        "\:0420\:0430\:0432\:043d\:043e\:043c\:0435\:0440\:043d\:0430\:044f \
+\:0441\:0445\:043e\:0434\:0438\:043c\:043e\:0441\:0442\:044c"], 
+      "Specifications" :> {{$CellContext`n$$, 1, 25}}, "Options" :> {}, 
+      "DefaultOptions" :> {}],
+     ImageSizeCache->{
+      458.36234375000004`, {143.77597401403926`, 149.50790760778926`}},
+     SingleEvaluation->True],
+    Deinitialization:>None,
+    DynamicModuleValues:>{},
+    SynchronousInitialization->True,
+    UndoTrackedVariables:>{Typeset`show$$, Typeset`bookmarkMode$$},
+    UnsavedVariables:>{Typeset`initDone$$},
+    UntrackedVariables:>{Typeset`size$$}], "Manipulate",
+   Deployed->True,
+   StripOnInput->False],
+  Manipulate`InterpretManipulate[1]]], "Output",
+ CellChangeTimes->{
+  3.9602786332737637`*^9, {3.960278670058161*^9, 3.9602787108003216`*^9}, {
+   3.960278743779171*^9, 3.9602787691682777`*^9}, 3.960278870897003*^9, {
+   3.960278901588026*^9, 3.9602789256214237`*^9}, 3.9602789905933475`*^9, {
+   3.960279024144556*^9, 3.9602790554468193`*^9}, {3.9602792192076397`*^9, 
+   3.960279230341934*^9}, {3.9602793553553658`*^9, 3.9602793798913593`*^9}},
+ CellLabel->"Out[40]=",ExpressionUUID->"c39e8fd6-0298-a745-8985-fb29389ee566"]
+}, Open  ]]
+},
+WindowSize->{571, 418},
+WindowMargins->{{189, Automatic}, {Automatic, 32}},
+FrontEndVersion->"14.2 for Microsoft Windows (64-bit) (December 26, 2024)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"30324642-d603-6a45-a815-b7bd2493aa7d"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[576, 22, 3046, 82, 372, "Input",ExpressionUUID->"d680a01c-be30-f340-b1e4-c619b1d7af0e"],
+Cell[3625, 106, 2413, 45, 318, "Output",ExpressionUUID->"6a2687db-bcdf-a641-99ef-c5d536d45c42"],
+Cell[6041, 153, 2421, 45, 310, "Output",ExpressionUUID->"bd8bb2e8-6890-1946-9e6c-3bdd8806923f"],
+Cell[8465, 200, 2453, 46, 329, "Output",ExpressionUUID->"c39e8fd6-0298-a745-8985-fb29389ee566"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+
